@@ -124,6 +124,6 @@ $equal.addEventListener('click', () => {
   const numberResult = Number(arrayResult.join(''))
   const numberOne = Number($result.innerText)
 
-  $result.innerText = Number(operate(numberOne, numberResult, operator).toFixed(5))
+  $result.innerText = Number(operate(numberResult, numberOne, operator).toFixed(5))
   $operation.innerText = ''
 })

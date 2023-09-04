@@ -5,11 +5,8 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
-  eslint:
-    specifier: 8.48.0
-    version: 8.48.0
   standard:
-    specifier: ^17.1.0
+    specifier: 17.1.0
     version: 17.1.0
   vite:
     specifier: 4.4.5
