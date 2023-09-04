@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Handjet&family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #222831;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.content {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  width: 400px;
+  height: 562px;
+
+  box-sizing: border-box;
+  background-color: #111720;
+  border: 2px solid #fff;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.screen {
+  background-color: #333942;
+  width: 356px;
+  height: 119px;
+  margin-top: 22px;
+  box-sizing: border-box;
+  border: 2px solid #fff;
+  border-radius: 0.5em;
+}
+
+.operation {
+  width: 340px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.buttons {
+  height: 395px;
+  width: 357px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buttons-clear {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.clear-delete {
+  box-sizing: border-box;
+  border: 2px solid #fff;
+  width: 173px;
+  height: 69px;
+  border-radius: 0.3em;
+  font-size: 20px;
+  font-weight: 700;
+}
+.clear {
+  background-color: #ffaaaa;
+  transition: background-color 0.6s ease-out;
+}
+
+.clear:hover {
+  background-color: #ee9999;
+}
+
+.delete {
+  background-color: #aaaaff;
+  transition: background-color 0.2s ease-out;
+}
+
+.delete:hover {
+  background-color: #9999ee;
+}
+
+.numbers {
+  width: 359px;
+  height: 302px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.buttons-numbers {
+  width: 85px;
+  height: 69px;
+  background-color: #222831;
+  color: white;
+  font-size: x-large;
+  border: 2px solid #fff;
+  border-radius: 0.3em;
+  transition: background-color 0.2s ease-out;
+}
+
+.buttons-numbers:hover {
+  background-color: #23272c;
+}
+
+.result {
+  width: 340px;
+  height: 79px;
+  font-size: 40px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.footer {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
+}
+
+.footer {
+  display: flex;
+  gap: 5px;
+}
